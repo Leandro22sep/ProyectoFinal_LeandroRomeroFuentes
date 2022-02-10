@@ -238,6 +238,10 @@ a.agrandarLink:hover {
   padding-bottom: 20px;
 }
 
+.btn-consulta {
+  margin-top: 25px;
+}
+
 .tituloHeader {
   font-size: xx-large;
   text-shadow: 0 0 1.5px #222;
