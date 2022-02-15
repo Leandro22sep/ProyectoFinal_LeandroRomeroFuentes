@@ -162,6 +162,7 @@ body {
     text-align: center;
     font-size: 30px;
     color: $color2;
+    padding-top: 25px;
 }
 
 .nombreyapellido {
@@ -248,29 +249,6 @@ a.agrandarLink:hover {
     width: 30px;
 }
 
-.mainNosotros {
-    height: 800px;
-}
-
-.mainNosotros {
-    background-color: $color3;
-
-    div {
-        h2 {
-            color: $color2;
-            text-align: center;
-            font-size: 30px;
-            padding-top: 20px;
-        }
-
-        p {
-            color: $color2;
-            text-align: center;
-            font-size: 17px
-        }
-    }
-}
-
 .mainGastronomia {
     background-color: $color3;
     color: $color2;
@@ -286,8 +264,31 @@ a.agrandarLink:hover {
     @extend .parrafoTurismo;
 }
 
+.seccionUbicacionGastronomica{
+    @extend .seccionUbicacionTuristica;
+}
 .btn-consulta{
     margin-top: 25px;
 }
+
+.mainNosotros {
+    height: 1000px;
+    background-color: #cd966c;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+    .seccionNosotros{
+        height: 300px;
+        margin-bottom: 25px;
+        .imagenNosotros{
+            background-image: url(../images/nosotros_1.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    }
+}
+
+
+
 @import "_header";
 @import "_footer";
