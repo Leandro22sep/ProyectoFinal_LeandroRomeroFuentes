@@ -225,22 +225,49 @@ a.agrandarLink:hover {
 }
 
 .mainNosotros {
-  height: 1000px;
   background-color: #cd966c;
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 25px;
+  padding-bottom: 25px;
 }
 .mainNosotros .seccionNosotros {
   height: 300px;
   margin-bottom: 25px;
 }
-.mainNosotros .seccionNosotros .imagenNosotros {
+.mainNosotros .seccionNosotros .textoNosotros h3 {
+  text-align: center;
+  font-size: 50px;
+}
+.mainNosotros .seccionNosotros .textoNosotros p {
+  text-align: justify;
+  font-size: 18px;
+}
+.mainNosotros .seccionNosotros .imagenNosotros1 {
   background-image: url(../images/nosotros_1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+.mainNosotros .seccionNosotros .imagenNosotros2 {
+  background-image: url(../images/nosotros_2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.mainNosotros .seccionNosotros .imagenNosotros3 {
+  background-image: url(../images/nosotros_3.jpg);
   background-position: center;
   background-size: cover;
 }
 
+@media only screen and (max-width: 767px) {
+  .mainNosotros .seccionNosotros {
+    height: 600px;
+  }
+  .mainNosotros .seccionNosotros .imagenNosotros1, .mainNosotros .seccionNosotros .imagenNosotros2, .mainNosotros .seccionNosotros .imagenNosotros3 {
+    height: 300px;
+  }
+}
 .tituloHeader {
   font-size: xx-large;
   text-shadow: 0 0 1.5px #222;
