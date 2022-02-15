@@ -241,7 +241,7 @@ a.agrandarLink:hover {
 }
 .mainNosotros .seccionNosotros .textoNosotros p {
   text-align: justify;
-  font-size: 18px;
+  font-size: px;
 }
 .mainNosotros .seccionNosotros .imagenNosotros1 {
   background-image: url(../images/nosotros_1.jpg);
